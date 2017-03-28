@@ -1,0 +1,151 @@
+html {
+    margin: 0;
+    padding: 0;
+}
+/*--General Styling--*/
+body {
+     background: url(../images/jazzclub1.png) center no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+     height: 100%;
+    width: auto;
+    color: #fff;
+    text-align: center;
+    font-family: 'Poiret One', cursive;
+    font-size: 16pt;
+}
+h1 {
+    margin: 40px 0px 10px 0px;
+    padding-top: 20px;
+}
+.navbar-nav {
+    background: rgba(0, 0, 0, 0.75);
+    width: 100%;
+    font-family: 'Bungee Inline', cursive;
+    position: absolute;
+    top: -10px;
+    padding: 10px 30px 0px 0px;
+    text-decoration: none;
+    margin: 0px 0px -10px 0px;
+}
+ul {
+    list-style: none;
+}
+ul li {
+    float: left;
+    padding: 0px 50px 0px 10px;
+}
+li a {
+    display: block;
+    text-align: center;  
+}
+.head {
+    width: 100%;
+    margin-top: 15px
+}
+.container {
+    background: rgba(0, 0, 0, 0.6);
+    margin: auto;
+}
+a {
+    color: #fff;
+    font-size: 20pt;
+    text-transform: capitalize;
+}
+a:hover {
+    color: #E80C7A;
+    text-decoration: none;
+}
+a:active {
+    color: #E80C7A;
+}
+p {
+    text-align: left;
+    font-size: 16pt;
+}
+h2 {
+    font-size: 20pt;
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+    font-family: 'Bungee Inline', cursive;
+}
+footer .container p{
+    text-align: center;
+    margin: auto;
+    font-size: 10px;
+}
+/*-- Home Page Styling--*/
+.band {
+    width: 30%;
+    float: left;
+    margin-right: 10px;
+}
+.album {
+    width: 35%;
+    margin-top: 20px;
+    text-align: center;
+}
+/*--Discography Styling--*/
+ol {
+   list-style: none;
+}
+/*--Contact Styling--*/
+ol.follow{
+    padding: 0px;
+}
+
+ol.follow i{
+    font-size: 35pt
+}
+/*--Media Queries--*/
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+    .navbar-nav {
+        background: rgba(0, 0, 0, 1);
+        width: 100%;
+        font-family: 'Bungee Inline', cursive;
+        position: fixed;
+}
+    h1 {
+        margin: 180px 0px 0px 0px;
+        
+    }
+ul li {
+    float: none;
+    padding: 0px;
+    border-bottom: 1px solid;
+}
+li a {
+    display: inline-block;
+    text-align: center;  
+}
+    }
+
+    /* Small Devices, Tablets */
+    @media only screen and (max-width : 730px) {
+        body {
+            padding: auto;
+            margin: auto;
+            width: 100%
+        }
+        h1 {
+        visibility: collapse;
+        padding: 10px;
+        margin: 0px;
+}
+    .navbar-nav {
+        background: rgba(0, 0, 0, 1);
+        width: 100%;
+        position: static;
+        margin-bottom: -210px;
+}
+        ol li {
+            text-align: left;
+            margin-left: -20px;
+        }
+        ul li {
+            padding: 0px;
+        }
+    }
